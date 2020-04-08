@@ -19,7 +19,7 @@ mycursor = mydb.cursor()
 #mycursor.execute(sql, val)
 #mycursor.execute("select name,contact from customers")
 #mycursor.execute("select * from customers where address like '%luru'")
-sql = "select * from customers where address = %s"
+sql = "select * from customers where name = %s"
 adr = ("Karnataka",)
 mycursor.execute(sql, adr)
 myresult = mycursor.fetchall()
