@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Fill Details
+    Employee Details
 @endsection
 @section('content')
 <div class="container">
